@@ -75,12 +75,8 @@ const config: Config = {
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(calc(-250px * 14))' },
+          '100%': { transform: 'translateX(-100%)' },
         },
-      },
-      screens: {
-        sm: { max: "576px" },
-        md: { max: "780px" },
       },
       gridTemplateColumns: {
         // Simple 16 column grid
