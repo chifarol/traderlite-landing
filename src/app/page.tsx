@@ -76,13 +76,13 @@ export default function Home() {
     <main className="tw-w-full">
       {/* hero section */}
       <div
-        className="tw-flex tw-flex-col tw-items-center tw-bg-cover tw-bg-cnter tw-bg-top tw-bg-no-repeat tw-pt-[64px] md:tw-items-start"
+        className="tw-bg-cover tw-bg-cnter tw-bg-top tw-bg-no-repeat tw-pt-[64px] md:tw-items-start"
         style={{
           backgroundImage: `url('/hero-bg.png')`,
           backgroundSize: "80%",
         }}
       >
-        <div className="tw-flex tw-flex-col tw-items-center tw md:tw-px-[1rem]">
+        <div className="tw-flex tw-flex-col tw-items-center tw md:tw-px-[1rem] md:tw-items-start">
           <h2
             className="tw-font-black tw-max-[1141px] tw-txt-70 tw-text-center md:!tw-text-32 md:tw-text-left"
             style={{ fontSize: "4.8vw", lineHeight: "6.5vw" }}
