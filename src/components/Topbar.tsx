@@ -43,7 +43,7 @@ const Topbar = ({ onMenuToggle }: Props) => {
           </a>
           <div className="tw-flex  tw-items-center tw-gap-[1.5rem] tw-font-medium">
             <Link href="/privacy-policy">Privacy Policy</Link>
-            <Link href="/terms-and-condition">Terms and Condition</Link>
+            <Link href="/terms-and-conditions">Terms and Condition</Link>
             <Link
               href="#"
               className={`tw-text-center tw-grid tw-place-items-center tw-bg-p1 tw-text-white tw-px-[1rem] tw-h-[50px] tw-rounded-[6px]`}

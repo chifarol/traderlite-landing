@@ -63,7 +63,7 @@ function Footer({}: Props) {
               <h5 className="tw-text-20 tw-font-bold tw-mb-[1rem] tw-">
                 Stay connected
               </h5>
-              <div className="tw-h-[2px] tw-bg-p1 tw-w-[50%] tw-mt-[-.5rem]"></div>
+              <div className="tw-h-[2px] tw-bg-p1 tw-w-[30%] tw-mt-[-.5rem]"></div>
             </div>
             <div className="tw-flex tw-flex-col tw-gap-[1rem] tw-text-[#575757] tw-mt-[1rem]">
               <p className="tw-text-n1">

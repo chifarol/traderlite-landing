@@ -82,7 +82,7 @@ export default function Home() {
           backgroundSize: "80%",
         }}
       >
-        <div className="tw md:tw-px-[1rem]">
+        <div className="tw-flex tw-flex-col tw-items-center tw md:tw-px-[1rem]">
           <h2
             className="tw-font-black tw-max-[1141px] tw-txt-70 tw-text-center md:!tw-text-32 md:tw-text-left"
             style={{ fontSize: "4.8vw", lineHeight: "6.5vw" }}
