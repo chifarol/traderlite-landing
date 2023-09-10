@@ -61,7 +61,7 @@ const Topbar = ({ onMenuToggle }: Props) => {
                 setOpenMenu(!openMenu);
               }}
             >
-              <Image src={hamburgerIcon} alt="" className="tw-h-[1.25rem] " />
+              <Image src={hamburgerIcon} alt="" className="tw-h-[1rem] " />
             </div>
           </div>
           {/* sidebar sm */}
