@@ -123,7 +123,7 @@ export default function Home() {
       </div>
 
       {/* 2nd section */}
-      <div className="tw-p-[6.25rem_8vw] tw-flex tw-flex-col tw-items-center md:tw-px-[1.5rem] md:tw-items-start">
+      <div className="tw-p-[6.25rem_8vw] tw-flex tw-flex-col tw-items-center md:tw-px-[1.25rem] md:tw-items-start">
         <h6 className="tw-text-18 tw-text-p1 tw-font-medium">
           FASTEST SOLUTION
         </h6>
@@ -155,7 +155,7 @@ export default function Home() {
             className="tw-h-[536px] tw-w-full tw-object-cover tw-rounded-[8px]"
           />
         </div>
-        <div className="tw md:tw-px-[1.5rem]">
+        <div className="tw md:tw-px-[1.25rem]">
           <h6 className="tw-text-18 tw-text-p1 tw-font-medium">ABOUT US</h6>
           <div className="tw-text-40 tw-font-bold tw-mt-[1rem] tw-mt-[.75rem] md:tw-text-32">
             Your Ultimate Gift Card Destination - Accessible to Anyone,

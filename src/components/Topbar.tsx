@@ -37,7 +37,7 @@ const Topbar = ({ onMenuToggle }: Props) => {
     <>
       <div className="tw-w-full tw-max-w-[1440px] tw-absolute tw-top-[0] tw-left-[-50%] tw-translate-x-[50%]">
         {/* topbar lg */}
-        <div className="tw-w-full tw-p-[4rem_8vw] tw-flex  tw-items-center md:tw-hidden md:tw-px-[1.5rem] tw-justify-between">
+        <div className="tw-w-full tw-p-[4rem_8vw] tw-flex  tw-items-center md:tw-hidden md:tw-px-[1.25rem] tw-justify-between">
           <a href="/" className="tw-pr-[2rem] ">
             <Image src={logo} alt="" className="tw-h-[1.75rem] tw-w-[auto]" />
           </a>
