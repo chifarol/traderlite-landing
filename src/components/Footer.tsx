@@ -11,7 +11,7 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <div className="tw-bg-[#EDF4FF] tw-p-[3.5rem_8vw] md:tw-p-[4.5rem_1.5rem] md:tw-flex-col">
+    <div className="tw-bg-[#EDF4FF] tw-p-[3.5rem_8vw] md:tw-p-[4.5rem_1.25rem] md:tw-flex-col">
       <div className="tw-flex tw-flx-wrap tw-itms-center tw-justify-between tw-gap-[2rem] md:tw-flex-col">
         <div className="tw-max-w-[380px]">
           <a href="/" className="tw-pr-[2rem] ">
@@ -72,12 +72,12 @@ function Footer({}: Props) {
               </p>
               <input
                 type="text"
-                className="tw-border-0 tw-bg-[transparent] tw-border-b tw-py-[.5rem] tw-text-14"
+                className="tw-border-0 tw-bg-[transparent] tw-border-b tw-py-[.5rem] tw-text-14 tw-outline-0"
                 placeholder="Full Name"
               />
               <input
                 type="email"
-                className="tw-border-0 tw-bg-[transparent] tw-border-b tw-py-[.5rem] tw-text-14"
+                className="tw-border-0 tw-bg-[transparent] tw-border-b tw-py-[.5rem] tw-text-14 tw-outline-0"
                 placeholder="Email Address"
               />
               <Link
