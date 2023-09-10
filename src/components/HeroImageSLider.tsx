@@ -12,7 +12,7 @@ function HeroImageSlider({}: Props) {
     <>
       <div className="tw-w-full tw-mt-[2rem] tw-pb-[1rem] tw-overflow-x-scroll scroll tw-whitespace-nowrap">
         <div className="tw-flex tw-items-center tw-x-[2rem] tw-animate-scroll">
-          {Array.from(Array(10).keys()).map((item, index) => (
+          {Array.from(Array(6).keys()).map((item, index) => (
             <Image
               key={index}
               src={heroImg}

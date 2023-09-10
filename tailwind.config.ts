@@ -74,7 +74,7 @@ const config: Config = {
         md: { max: "780px" },
       },
       animation: {
-        scroll: 'scroll 60s linear infinite',
+        scroll: 'scroll 30s linear infinite',
       },
       keyframes: {
         scroll: {
