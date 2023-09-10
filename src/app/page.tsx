@@ -11,8 +11,11 @@ import sec3Img from "@/assets/images/sec3.png";
 import sec4Img from "@/assets/images/sec4.png";
 import Link from "next/link";
 import Accordion from "@/components/Accordion";
+import { PrimaryTargetButton } from "@/components/Buttons";
+// import { useRef } from "react";
 
 export default function Home() {
+  // const tradeliteRef = useRef<HTMLDivElement | null>(null);
   const sec2Cards = [
     {
       title:
@@ -161,26 +164,26 @@ export default function Home() {
             Your Ultimate Gift Card Destination - Accessible to Anyone,
             Anywhere, Anytime
           </div>
-          <p className="tw-text-18 tw-mt-[1rem] md:tw-text-16">
+          <p className="tw-text-18 tw-mt-[1rem] md:tw-text-16 tw-mb-[2.75rem] ">
             Welcome to our comprehensive platform, where you gain the knowledge,
             tools, and resources necessary to navigate the exciting realms of
             gift card and cryptocurrency trading with absolute confidence. We
             empower you to engage in secure and efficient trading, ensuring your
             journey in this dynamic landscape is both seamless and rewarding
           </p>
-          <Link
-            href="#"
-            className={`tw-mt-[2.75rem] tw-text-center tw-grid tw-place-items-center tw-bg-p1 tw-text-white tw-px-[1rem] tw-h-[50px] tw-rounded-[6px] tw-w-[fit-content]`}
-          >
-            Download Tradelite
-          </Link>
+
+          <PrimaryTargetButton />
         </div>
       </div>
 
       {/* 4th section */}
-      <div className="tw-p-[6.25rem_8vw] md:tw-p-[0]">
-        <div className="tw-grid tw-grid-cols-2 tw-gap-[2.5rem] tw-h-[400px] tw-bg-p1 tw-rounded-[12px] md:tw-grid-cols-1 md:tw-h-[unset] md:tw-rounded-[0]">
-          <div className="tw-pl-[8vw] tw-my-[auto] md:tw-pt-[3rem] md:tw-px-[1rem]">
+      <div
+        className="tw-p-[6.25rem_8vw] md:tw-p-[0]"
+        id="traderlite"
+        // ref={tradeliteRef}
+      >
+        <div className="tw-grid tw-grid-cols-2 tw-gap-[2.5rem] tw-min-h-[400px] tw-bg-p1 tw-rounded-[12px] md:tw-grid-cols-1 md:tw-h-[unset] md:tw-rounded-[0]">
+          <div className="tw-pl-[8vw] tw-py-[2rem] tw-my-[auto] md:tw-pt-[3rem] md:tw-px-[1rem]">
             <div className="tw-text-40 tw-text-white tw-font-bold tw-mt-[.75rem] md:tw-text-32">
               Download Tradelite today and enjoy.
             </div>

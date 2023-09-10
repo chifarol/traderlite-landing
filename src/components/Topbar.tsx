@@ -20,6 +20,7 @@ import cancelIcon from "@/assets/images/cancel.svg";
 
 import playstoreBtnImg from "@/assets/images/playstore-btn.svg";
 import appleBtnImg from "@/assets/images/apple-btn.svg";
+import { PrimaryTargetButton, WhiteTargetButton } from "./Buttons";
 
 type Props = {
   onMenuToggle: (isOpen: boolean) => void;
@@ -44,12 +45,7 @@ const Topbar = ({ onMenuToggle }: Props) => {
           <div className="tw-flex  tw-items-center tw-gap-[1.5rem] tw-font-medium">
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-and-conditions">Terms and Condition</Link>
-            <Link
-              href="#"
-              className={`tw-text-center tw-grid tw-place-items-center tw-bg-p1 tw-text-white tw-px-[1rem] tw-h-[50px] tw-rounded-[6px]`}
-            >
-              Try Tradelite
-            </Link>
+            <PrimaryTargetButton text="Try Traderlite" />
           </div>
         </div>
         {/* topbar sm */}
@@ -115,12 +111,8 @@ const Topbar = ({ onMenuToggle }: Props) => {
                   <Link href="/privacy-policy">Privacy Policy</Link>
                   <Link href="/terms-and-conditions">Terms and Conditions</Link>
                 </div>
-                <a
-                  href="/blank-canvases"
-                  className={`tw-text-center tw-grid tw-place-items-center tw-bg-white tw-text-n1 tw-font-medium tw-px-[1rem] tw-h-[2.5rem] tw-rounded-[6px] tw-my-[3rem] tw-w-[fit-content]`}
-                >
-                  Try Tradelite
-                </a>
+
+                <WhiteTargetButton text="Try Tradelite" />
 
                 <div className="tw-font-medium tw-mt-[auto]">
                   <div className="tw-flex tw-gap-[2rem]">
