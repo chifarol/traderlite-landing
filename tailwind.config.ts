@@ -69,8 +69,12 @@ const config: Config = {
       black: "700",
     },
     extend: {
+      screens: {
+        sm: { max: "576px" },
+        md: { max: "780px" },
+      },
       animation: {
-        scroll: 'scroll 80s linear infinite',
+        scroll: 'scroll 60s linear infinite',
       },
       keyframes: {
         scroll: {
