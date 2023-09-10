@@ -69,6 +69,15 @@ const config: Config = {
       black: "700",
     },
     extend: {
+      animation: {
+        scroll: 'scroll 40s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-250px * 14))' },
+        },
+      },
       screens: {
         sm: { max: "576px" },
         md: { max: "780px" },

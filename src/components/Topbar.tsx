@@ -116,28 +116,21 @@ const Topbar = ({ onMenuToggle }: Props) => {
 
                 <div className="tw-font-medium tw-mt-[auto]">
                   <div className="tw-flex tw-gap-[2rem]">
-                    <Link href="#">
-                      <Image
-                        src={linkedinIcon}
-                        alt=""
-                        className="tw-h-[1.5rem] tw-w-[1.5rem]"
-                      />
-                    </Link>
-                    <Link href="#">
+                    <Link href="https://www.instagram.com/tradeliteapp/">
                       <Image
                         src={instaIcon}
                         alt=""
                         className="tw-h-[1.5rem] tw-w-[1.5rem]"
                       />{" "}
                     </Link>
-                    <Link href="#">
+                    <Link href="https://facebook.com/Tradeliteapp">
                       <Image
                         src={facebookIcon}
                         alt=""
                         className="tw-h-[1.5rem] tw-w-[1.5rem]"
                       />{" "}
                     </Link>
-                    <Link href="#">
+                    <Link href="https://twitter.com/tradeliteapp">
                       <Image
                         src={twitterIcon}
                         alt=""

@@ -12,6 +12,7 @@ import sec4Img from "@/assets/images/sec4.png";
 import Link from "next/link";
 import Accordion from "@/components/Accordion";
 import { PrimaryTargetButton } from "@/components/Buttons";
+import HeroImageSlider from "@/components/HeroImageSLider";
 // import { useRef } from "react";
 
 export default function Home() {
@@ -114,7 +115,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="tw-w-full tw-mt-[2rem] tw-pb-[1rem] tw-overflow-x-scroll scroll tw-whitespace-nowrap">
+        {/* <div className="tw-w-full tw-mt-[2rem] tw-pb-[1rem] tw-overflow-x-scroll scroll tw-whitespace-nowrap">
           <div className="md:tw-w-[900px] tw-flex tw-gap-[2rem] tw-x-[2rem]">
             <Image
               src={heroImg}
@@ -122,7 +123,9 @@ export default function Home() {
               className="tw-h-[400px] tw-object-cover md:tw-object-[unset] tw-aspect-[4320/1185] md:tw-h-[300px]"
             />
           </div>
-        </div>
+        </div> */}
+
+        <HeroImageSlider />
       </div>
 
       {/* 2nd section */}

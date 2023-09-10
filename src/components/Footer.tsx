@@ -25,28 +25,21 @@ function Footer({}: Props) {
           {/* follow us */}
           <div className="tw-font-medium tw-mt-[4rem]">
             <div className="tw-flex tw-gap-[2rem]">
-              <Link href="#">
-                <Image
-                  src={linkedinIcon}
-                  alt=""
-                  className="tw-h-[2rem] tw-w-[2rem]"
-                />
-              </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/tradeliteapp/">
                 <Image
                   src={instagramIcon}
                   alt=""
                   className="tw-h-[2rem] tw-w-[2rem]"
                 />{" "}
               </Link>
-              <Link href="#">
+              <Link href="https://twitter.com/tradeliteapp">
                 <Image
                   src={twitterIcon}
                   alt=""
                   className="tw-h-[2rem] tw-w-[2rem]"
                 />{" "}
               </Link>
-              <Link href="#">
+              <Link href="https://facebook.com/Tradeliteapp">
                 <Image
                   src={facebookIcon}
                   alt=""
@@ -91,7 +84,7 @@ function Footer({}: Props) {
         </div>
       </div>
       <div className="tw-border-t tw-border-t-n1/40 tw-mt-[3rem] tw-pt-[2.5rem] tw-flex tw-justify-between tw-gap-[2rem] md:tw-flex-col">
-        <p className="tw-text-14">©Tradelite.com 2022. All Rights Reserved.</p>
+        <p className="tw-text-14">©2023 CORE EDGE LEGACY LIMITED</p>
         <div className="tw-flex tw-gap-[1rem]">
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-and-conditions">Terms of Use</Link>
