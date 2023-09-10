@@ -94,7 +94,7 @@ export default function Home() {
             cryptocurrency, our platform is here to guide, educate, and empower
             you.{" "}
           </p>
-          <div className="tw-flex tw-gap-[1.5rem] tw-items-center tw-mt-[2.5rem] tw-max-w-[418px]">
+          <div className="tw-flex tw-gap-[1.5rem] tw-items-center tw-mt-[2.5rem] tw-max-w-[418px] md:tw-items-start">
             <a href="#" className="tw-w-[fit-content]">
               <Image
                 src={playstoreBtnImg}
@@ -178,10 +178,10 @@ export default function Home() {
       </div>
 
       {/* 4th section */}
-      <div className="tw-p-[6.25rem_8vw] md:tw-px-[1.5rem]">
-        <div className="tw-grid tw-grid-cols-2 tw-gap-[2.5rem] tw-h-[400px] tw-bg-p1 tw-rounded-[12px] md:tw-grid-cols-1 md:tw-h-[unset]">
-          <div className="tw-pl-[8vw] tw-my-[auto] md:tw-pt-[4rem]">
-            <div className="tw-text-40 tw-text-white tw-font-bold tw-mt-[1rem] tw-mt-[.75rem]">
+      <div className="tw-p-[6.25rem_8vw] md:tw-p-[0]">
+        <div className="tw-grid tw-grid-cols-2 tw-gap-[2.5rem] tw-h-[400px] tw-bg-p1 tw-rounded-[12px] md:tw-grid-cols-1 md:tw-h-[unset] md:tw-rounded-[0]">
+          <div className="tw-pl-[8vw] tw-my-[auto] md:tw-pt-[3rem] md:tw-px-[1rem]">
+            <div className="tw-text-40 tw-text-white tw-font-bold tw-mt-[.75rem] md:tw-text-32">
               Download Tradelite today and enjoy.
             </div>
             <p className="tw-text-white tw-mt-[1.5rem] tw-max-w-[90%] md:tw-mt-[1rem]">
@@ -217,7 +217,7 @@ export default function Home() {
       </div>
 
       {/* 5th section */}
-      <div className="tw-w-full tw-p-[6.25rem_8vw] md:tw-px-[1.5rem]">
+      <div className="tw-w-full tw-p-[6.25rem_8vw] md:tw-px-[.5rem]">
         <div className=" tw-flex tw-flex-col tw-items-center tw-gap-[4.5rem] md:tw-gap-[1.5rem]">
           {/* 1st */}
           <div className="tw-flex tw-flex-col tw-text-center">
